@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "InstrumentStore.Services/1.0.0": {
+        "dependencies": {
+          "InstrumentStore.Core": "1.0.0"
+        },
+        "runtime": {
+          "InstrumentStore.Services.dll": {}
+        }
+      },
+      "InstrumentStore.Core/1.0.0": {
+        "runtime": {
+          "InstrumentStore.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstrumentStore.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InstrumentStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

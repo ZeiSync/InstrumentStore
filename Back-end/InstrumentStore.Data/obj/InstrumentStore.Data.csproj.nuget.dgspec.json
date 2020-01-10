@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Data\\InstrumentStore.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj",
+        "projectName": "InstrumentStore.Core",
+        "projectPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj",
+        "packagesPath": "C:\\Users\\zekan\\.nuget\\packages\\",
+        "outputPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zekan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Data\\InstrumentStore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Data\\InstrumentStore.Data.csproj",
+        "projectName": "InstrumentStore.Data",
+        "projectPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Data\\InstrumentStore.Data.csproj",
+        "packagesPath": "C:\\Users\\zekan\\.nuget\\packages\\",
+        "outputPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zekan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj": {
+                "projectPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "InstrumentStore.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/InstrumentStore.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InstrumentStore.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstrumentStore.Core/1.0.0": {
+      "type": "project",
+      "path": "../InstrumentStore.Core/InstrumentStore.Core.csproj",
+      "msbuildProject": "../InstrumentStore.Core/InstrumentStore.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "InstrumentStore.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zekan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Services\\InstrumentStore.Services.csproj",
+      "projectName": "InstrumentStore.Services",
+      "projectPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Services\\InstrumentStore.Services.csproj",
+      "packagesPath": "C:\\Users\\zekan\\.nuget\\packages\\",
+      "outputPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zekan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj": {
+              "projectPath": "C:\\HelloWorld\\CSharp\\InstrumentStore\\Back-end\\InstrumentStore.Core\\InstrumentStore.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

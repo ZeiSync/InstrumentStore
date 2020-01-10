@@ -1,0 +1,2 @@
+C:\VisualStudio\InstrumentStore\InstrumentStore.Core\obj\Debug\netcoreapp3.1\InstrumentStore.Core.AssemblyInfoInputs.cache
+C:\VisualStudio\InstrumentStore\InstrumentStore.Core\obj\Debug\netcoreapp3.1\InstrumentStore.Core.AssemblyInfo.cs

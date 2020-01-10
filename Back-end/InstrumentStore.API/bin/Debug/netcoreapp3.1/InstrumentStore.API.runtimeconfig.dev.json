@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\zekan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zekan\\.nuget\\packages"
+    ]
+  }
+}
